@@ -38,7 +38,7 @@ export class UtilService {
   listaGradoAutor():Observable<DataCatalogo[]>{
     return this.http.get<DataCatalogo[]>(baseUrlUtil+"/listaGradoAutor");
   }
-
+//--- esto llamamos en el controller
   listaTipoLibroRevista():Observable<DataCatalogo[]>{
     return this.http.get<DataCatalogo[]>(baseUrlUtil+"/listaTipoLibroRevista");
   }
